@@ -14,16 +14,27 @@ body {
 	width: 65%;
 }
 .right-side {
+	display: flex;
+	justify-content: center;
+	position: relative;
 	width: 35%;
 }
 .icon {
 	width: 50px;
 }
 .info-box {
+	background-color: #71ACE5;
 	height: 33.33%;
+	justify-content: center;
 	width: 66.66%;
+}
+.info-buttons {
+	display: inline-block;
 }
 .sm-box {
 	height: 33.33%;
 	width: 33.33%;
+}
+.large-pic {
+	height: 800px;
 }
