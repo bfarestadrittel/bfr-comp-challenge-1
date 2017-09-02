@@ -1,0 +1,29 @@
+* {
+	background-color: black;
+	color: white;
+}
+body {
+	display: flex;
+	font-family: "Fira Sans", sans-serif;
+	margin: 0px;
+}
+.left-side {
+	align-content: flex-start;
+	display: flex;
+	flex-flow: row wrap;
+	width: 65%;
+}
+.right-side {
+	width: 35%;
+}
+.icon {
+	width: 50px;
+}
+.info-box {
+	height: 33.33%;
+	width: 66.66%;
+}
+.sm-box {
+	height: 33.33%;
+	width: 33.33%;
+}
