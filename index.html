@@ -3,18 +3,19 @@
 <head>
 	<title>Strickland Propane: Taste the Meat, Not the Heat</title>
 	<link href="style.css" type="text/css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700" rel="stylesheet">
 </head>
 <body>
 	<section class="left-side">
 		<article class="info-box">
-			<h1>Hank Hill</h1>
-			<p>Assistant Manager, Stickland Propane<br>
-			Arlen, TX USA
+			<h1>Hank R. Hill</h1>
+			<p class="assistant-manager">Assistant Manager, Strickland Propane<br>
+			Arlen, Texas USA
 			</p>
 			<div class="button-container">
-				<button class="info-buttons">Resume</button>
-				<button class="info-buttons">Contact</button>
+				<button class="info-buttons"><img src="images/info.svg" class="button-images" alt="small white information icon">Resume</button>
+				<button class="info-buttons"><img src="images/call-answer.svg" class="button-images" alt="small white phone icon">Contact</button>
 			</div>
 		</article>
 		<article class="article-1 sm-box">
@@ -47,7 +48,15 @@
 		</article>
 	</section>
 	<section class="right-side">
-		<img src="images/hank-large.jpg" class="large-pic" alt="">
+			<div class="radio-buttons">
+				<input type="radio" class="slide-buttons">
+				<input type="radio" class="slide-buttons" checked>
+				<input type="radio" class="slide-buttons">
+		</div>
+		<!-- <div class="arrow-container"> -->
+			<img src="images/left-button.svg" class="arrow-buttons arrow-left" alt="left pointing arrow">
+			<img src="images/left-button.svg" class="arrow-buttons arrow-right" alt="right pointing arrow">
+		<!-- </div> -->
 	</section>
 </body>
 </html>
