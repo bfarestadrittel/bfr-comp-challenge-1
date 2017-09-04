@@ -4,18 +4,27 @@
 }
 body {
 	display: flex;
+	flex-direction: row;
 	font-family: "Fira Sans", sans-serif;
+	font-size: 18px;
 	margin: 0px;
 }
 .left-side {
 	align-content: flex-start;
 	display: flex;
 	flex-flow: row wrap;
+	height: 100vh;
+	margin: 0px;
 	width: 65%;
 }
 .right-side {
+	background-image: url("images/hank-large.jpg");
+	background-repeat: no-repeat;
+	background-size: 80vh;
 	display: flex;
+	flex-flow: column-wrap;
 	justify-content: flex-start;
+	position: relative;
 	width: 35%;
 }
 .icon {
@@ -23,21 +32,36 @@ body {
 	width: 70px;
 }
 .info-box {
-	align-items: center;
-	background-color: #71ACE5;
+	align-items: flex-start;
+	background-color: #2E77BD;
 	display: flex;
+	flex-direction: column;
 	height: 33.33%;
 	justify-content: center;
 	width: 66.66%;
 }
 
+h1 {
+	font-size: 175%;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.assistant-manager {
+	line-height: 150%;
+	margin-left: 20px;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
 .info-buttons {
 	border: 2px solid white;
-	font-size: 16px;
+	font-size: 70%;
 	height: 20%;
-	margin: 10px;
+	margin: 8px 20px;
 	padding: 10px;
-	width: 50%;
+	text-transform: uppercase;
+	width: 30%;
 }
 .button-container {
 	align-items: flex-start;
@@ -45,35 +69,71 @@ body {
 	flex-direction: row;
 	width: 75%;
 }
+.button-images{
+	margin-right: 5px;
+	width: 15px;
+}
 .sm-box {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
 	height: 33.33%;
 	justify-content: center;
+	text-transform: uppercase;
 	width: 33.33%;
 }
-.article-1 {
-	background-color: #FFDE74;
+.article-1, .article-3, .article-5, .article-7 {
+	background-color: #FF722F;
 }
-.article-2 {
-	background-color: #FFA174;
-}
-.article-3 {
-	background-color: #FFDE74;
+.article-2, .article-6 {
+	background-color: #FFCE2F;
 }
 .article-4 {
-	background-color: #71ACE5;
+	background-color: #2E77BD;
 }
-.article-5 {
-	background-color: #FFDE74;
+.arrow-container {
+	display: flex;
+	position: absolute;
+	justify-content: flex-end;
+	width: 100%;
 }
-.article-6 {
-	background-color: #FFA174;
+
+.arrow-buttons{
+	position: absolute;
+	width: 30px;
+
 }
-.article-7 {
-	background-color: #FFDE74;
+ .arrow-left {
+  bottom: 50%;
+  left: 3%;
+ }
+ .arrow-right {
+  bottom: 50%;
+  right: 3%;
+  transform: rotate(180deg);
+ }
+
+.radio-buttons{
+	display: flex;
+	justify-content: flex-end;
+	position: absolute;
+	right: 3%;
+	top: 3%;
+	width: 100%;
 }
-.large-pic {
-	height: 800px;
+.slide-buttons {
+	
 }
+
+@media only screen and (max-width: 800px) {
+
+  h1 {
+    font-size: 20px;
+  }
+  .logo {
+    width: 60px;
+  }
+}
+
+
+
