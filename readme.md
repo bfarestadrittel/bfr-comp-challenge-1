@@ -4,4 +4,4 @@ I tried to create a page that was simple, but covered all of Hank's favorite thi
 
 ![Original Comp](http://frontend.turing.io/assets/images/static-comp-challenge-1.jpg)
 
-![My Version](https://drive.google.com/file/d/0B14sikr0GI_CSVU0VS1nNDJ0Sm8/view?usp=sharing)
+[My Version](https://drive.google.com/file/d/0B14sikr0GI_CSVU0VS1nNDJ0Sm8/view?usp=sharing)
